@@ -1,0 +1,45 @@
+.map-logo{
+    background-color: rgb(37, 37, 37);
+    position: relative;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.map-logo-logo{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #27A776;
+    font-size: 22px;
+}
+
+.form-control{
+    background-color: rgb(37, 37, 37);
+    border: none;
+}
+
+.form-control::placeholder{
+    color: white;
+}
+
+.form-control:focus{
+    background-color: rgb(37, 37, 37);
+    border: none;
+}
+
+
+@media only screen and (max-width: 600px){
+    .location-baba{
+      flex-direction: column;
+      justify-content: center;
+      gap: 40px;
+      align-items: center;
+    }
+
+    .form{
+        margin: 20px 10px  !important;
+    }
+
+}

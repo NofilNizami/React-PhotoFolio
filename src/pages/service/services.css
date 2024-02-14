@@ -1,0 +1,72 @@
+.cardname{
+    background-color: rgb(37, 37, 37);
+    position: relative;
+    width: 300px;
+    height: 300px;
+}
+
+.overlays{
+    position: absolute;
+    background-color: #27A776;
+    top: 0%;
+    z-index: 99;
+    width: 100%;
+    left: 0%;
+    height: 0%;
+    transition: all 0.5s;
+}
+
+.cardname:hover .overlays{
+    height: 100%;
+}
+
+.cardname p{
+    font-size: 16px;
+    z-index: 100;
+}
+
+.cardname h4{
+    margin-top: 10px;
+    z-index: 100;
+}
+
+.circle{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #27A776;
+    z-index: 100;
+    transition: all 0.7;
+}
+
+.cardname:hover .circle{
+    background-color: white;
+}
+
+.circlelogo{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    z-index: 100;
+    transition: all 0.7s;
+}
+
+.cardname:hover .circlelogo{
+    color: #27A776;
+}
+
+.first-price{
+    border-bottom: 2px dotted gray;
+    margin: 30px 0px;
+}
+
+.first-price h4{
+    margin-bottom: 20px;
+}
+
+.first-price h5{
+    margin-bottom: 20px;
+}

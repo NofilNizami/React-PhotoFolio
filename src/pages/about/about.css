@@ -1,0 +1,47 @@
+.chevron{
+    color: #27A776;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+.alllogos p{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+.para{
+    font-size: 16px;
+}
+
+.smpara{
+    font-size: 16px;
+}
+
+.alllogos span{
+    font-weight: bold;
+}
+
+.h4{
+    color: #27A776;
+    font-size: 26px;
+}
+
+.test h4{
+    color: gray;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: 18px;
+    margin:0;
+    padding:0;
+}
+
+.hrr{
+    width: 200px;
+    background-color: #27A776;
+    margin: 0 20px;
+    height: 0px;
+    padding: 0;
+    height: 2px;
+}
